@@ -67,19 +67,16 @@ h1 {
 
 .stars {
   text-align: center;
+  white-space: nowrap;
 }
 
 .stars > div {
   background-color: var(--light-grayish-magenta);
   border-radius: 0.5rem;
   margin-block: 1rem;
-  padding: 1rem 4rem;
+  padding: 1rem 3.75rem;
   font-weight: 700;
   color: var(--very-dark-magenta);
-}
-
-.stars > div div {
-  white-space: nowrap;
 }
 
 .stars img {
@@ -155,7 +152,6 @@ h1 {
 
   .stars {
     max-width: 640px;
-    white-space: nowrap;
   }
 
   .stars img {
